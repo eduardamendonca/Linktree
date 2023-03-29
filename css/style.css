@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+body{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(176deg, rgb(0, 0, 0) 0%, rgb(45, 04, 82) 100%);
+}
+.avatar{
+    width: 80px;
+    border-radius: 8rem;
+    border:3px solid white;
+    box-shadow: 0 0 2rem #450482;
+}
+h1{
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+h2{
+    font-weight: 200;
+}
+.profile{
+    margin-top: 3rem;
+    text-align: center;
+}
+.social img{
+    width: 4rem;
+}
