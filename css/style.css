@@ -30,6 +30,12 @@ h2{
     margin-top: 3rem;
     text-align: center;
 }
+.social{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
 .social img{
-    width: 4rem;
+    width: 3.5rem;
+    margin: 1rem 1.8rem;
 }
