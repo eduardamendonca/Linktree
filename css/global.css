@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.main{
+    margin: .5rem;
+    padding: .2rem;
+    border: 1px solid #ffff;
+    border-radius: .8rem;
+}
+html, body{
+    height: 100%;
+}
+body{
+    color: white;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(176deg, rgb(0, 0, 0) 0%, rgb(45, 04, 82) 100%);
+}
