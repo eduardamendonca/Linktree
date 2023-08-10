@@ -15,3 +15,13 @@ body{
     background: rgb(0, 0, 0);
     background: linear-gradient(176deg, rgb(0, 0, 0) 0%, rgb(45, 04, 82) 100%);
 }
+@media screen and (min-width: 768px) {
+    .main{
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+    .main::before,
+    .main::after{
+        width: 70vw;
+    }
+}

@@ -48,14 +48,8 @@ h1{
 .information .wpp::before{
     background-image: url('/img/icons_profile/wpp_profile.svg');
 }
-h2{
-    font-weight: 200;
-    margin-bottom: 2rem;
-}
-.header{
-    margin-top: 2rem;
-    text-align: center;
-}
+
+
 .social{
     display: flex;
     justify-content: center;
@@ -80,21 +74,25 @@ h2{
     color: #450482
 }
 
+
 @media screen and (min-width: 768px) {
-    .profile {
+    .header{
         display: grid;
         grid-template-areas: 
         "photo title"
-        "photo"
+        "photo information"
         ;
     }
-    .profile img{
+    .header .photo{
+        grid-area: photo;
+        margin: 0 auto;
+    }  
+    .header .title{
         grid-area: title;
-    }    
-    .profile{
-        flex-direction: row;
+        text-align: start;
+        max-width: 200px;
     }
-    .profile .information{
+    .header .information{
         grid-area: information;
     }
 
