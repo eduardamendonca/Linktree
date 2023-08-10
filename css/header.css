@@ -36,17 +36,20 @@ h1{
 }
 .information .people::before{
     background-image: url('/img/icons_profile/people.svg');
+    background-repeat: no-repeat;
 }
 .information .location::before{
     background-image: url('/img/icons_profile/location.svg');
-    height: 1.5rem;
+    background-repeat: no-repeat;;
 
 }
 .information .email::before{
     background-image: url('/img/icons_profile/email.svg');
+    background-repeat: no-repeat;
 }
 .information .wpp::before{
     background-image: url('/img/icons_profile/wpp_profile.svg');
+    background-repeat: no-repeat;
 }
 
 
