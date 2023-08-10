@@ -14,41 +14,105 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap" 
+    <link href="https://fonts.googleapis.com/css2?family=+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap" 
     rel="stylesheet">
 
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/acordeon.css">
+    <link rel="stylesheet" href="css/languagens.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/experience.css">
 </head>
 <body>
-    <div class="main">
+    <main class="main">
         <header class="header">
                 <img src="img/foto.jpg" alt="Foto de Eduarda Mendonça" class="photo">  
 
                 <h1 class="title">Olá,</br> eu sou Eduarda Mendonça</h1>
                 
                 <div class="information">
-                    <p class="people">Estagiária em TI</p>
+                    <p class="people">
+                        <a href="https://www.linkedin.com/in/eduarda-mendonca/">
+                            Estagiária em TI
+                        </a>
+                    </p>
                     <p class="location">Uberlândia - MG </p>
-                    <p class="wpp">(34) 99774-1178</p>
-                    <p class="email">eduardamendonca.dev@gmail.com</p>            
+                    <p class="wpp">
+                        <a href="https://wa.me/5534997741178">
+                            (34) 99774-1178
+                        </a>
+                    </p>
+                    <p class="email">eduardamendonca.dev@gmail.com
+                        <a href="mailto:eduardamendonca.dev@gmail.com">
+                            eduardamendonca.dev@gmail.com
+                        </a>
+                    </p>            
                 </div>
         </header>        
    
-        <section class="acordeon open">
+        <section class="acordeon ">
             <button class="trigger">
-                Idiomas   
+                <h2>
+                    Idiomas  
+                </h2>   
             </button>
 
             <div class="content" type="button">
-                <ul>
+                <ul class="langugages">
                     <li>Portugês</li>
                     <li>Inglês</li>
                 </ul>
             </div>
         </section>
-    </div>
+
+        <section class="acordeon ">
+            <button class="trigger">
+                <h2>
+                    Portfólio 
+                </h2>  
+            </button>
+
+            <div class="content" type="button">
+                <ul class="portfolio">
+                    <li>
+                        <h3 class="title github">Criando um App de lembrete</h3>
+                        <a href="https://www.google.com.br" target="_blank">www.google.com.br</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">Criando um App de lembrete</h3>
+                        <a href="https://www.google.com.br" target="_blank">www.google.com.br</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">Criando um App de lembrete</h3>
+                        <a href="https://www.google.com.br" target="_blank">www.google.com.br</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger">
+                <h2>
+                    Experiência Profissional   
+                </h2>    
+            </button>
+
+            <div class="content" type="button">
+                <ul class="experience">
+                    <li>
+                        <h3 class="title">Front-end Developer / dio.me</h3>
+                        <p class="peiod">Jan 2020 - Current</p>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, atque enim sed eaque, 
+                            eius explicabo, quia totam quo cupiditate illo sunt et provident sint autem. Eaque 
+                            delectus quos voluptatem voluptatibus.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
 
 <!--
         <ul class="links-list">
